@@ -24,7 +24,10 @@ namespace WindowsFormsApp8
 
         private void btQLTT_Click(object sender, EventArgs e)
         {
-
+            fQLTT frmTT = new fQLTT();
+            this.Hide();
+            frmTT.ShowDialog();
+            this.Show();
         }
 
         private void btQLS_Click(object sender, EventArgs e)
@@ -35,13 +38,20 @@ namespace WindowsFormsApp8
             this.Show();
         }
 
-
-        /*private void btnQLDM_Click(object sender, EventArgs e)
+        private void btQLKH_Click(object sender, EventArgs e)
         {
-            //Frm_QuanLyDanhMuc fr = new Frm_QuanLyDanhMuc();
+            fQLKT frmKT = new fQLKT();
             this.Hide();
-            fr.ShowDialog();
+            frmKT.ShowDialog();
             this.Show();
-        }*/
+        }
+
+        private void btQLNV_Click(object sender, EventArgs e)
+        {
+            fQLNV frmNV = new fQLNV();
+            this.Hide();
+            frmNV.ShowDialog();
+            this.Show();
+        }
     }
 }

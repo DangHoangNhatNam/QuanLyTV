@@ -51,17 +51,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DMMM.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="fLogin.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DMMM.Designer.cs">
-      <DependentUpon>DMMM.cs</DependentUpon>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fQLKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fQLKT.Designer.cs">
+      <DependentUpon>fQLKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fQLNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fQLNV.Designer.cs">
+      <DependentUpon>fQLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fQLTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fQLTT.Designer.cs">
+      <DependentUpon>fQLTT.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,11 +89,20 @@
     <Compile Include="QLS.Designer.cs">
       <DependentUpon>QLS.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="DMMM.resx">
-      <DependentUpon>DMMM.cs</DependentUpon>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fQLKT.resx">
+      <DependentUpon>fQLKT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fQLNV.resx">
+      <DependentUpon>fQLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fQLTT.resx">
+      <DependentUpon>fQLTT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
